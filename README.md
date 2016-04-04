@@ -23,27 +23,23 @@ For more information on Pokémon Showdown, visit the main
 - Emoticons in chat and private messages
 - Hangman, Profile, and Tells
 - Economy (bucks system, shop, tournament winnings)
+- Things like pokemon fuse and favourite pokemon.
 
 ## Quick Start
 
 ```bash
-$ git clone https://github.com/CreaturePhil/Showdown-Boilerplate.git
-$ cd Showdown-Boilerplate && npm install
+$ git clone https://github.com/Tigerball890/Server-PS--Boilerplate.git
+$ cd Server-PS--Boilerplate && npm install
+$ npm install cheerio
+$ npm install requests
 $ node app.js
 ```
-
-## Maintainers
-
-This boilerplate is brought to you and maintained by the following people:
-
-[![Philip La](https://avatars3.githubusercontent.com/u/5875574?s=117)](http://creaturephil.github.io) | [![jd](https://avatars1.githubusercontent.com/u/2987451?s=117)](https://github.com/jd4564) | [![Fender](https://avatars2.githubusercontent.com/u/8406186?s=117)](https://github.com/TheFenderStory)
-:---:|:---:|:---:|:---:|:---:
-[Philip La](http://creaturephil.github.io) | [jd](https://github.com/jd4564) | [Fender](https://github.com/TheFenderStory)
+## Credits for this
+- Champ1604 (Creating this git and many other things)
+- Tigerball890 (Doing other edits)
+- Ecuacion and his team (Making many things)
+- Zarel (Making the orignal server)
 
 ## Special thanks
 
 - See http://pokemonshowdown.com/credits
-
-## License
-
-[MIT](LICENSE)
