@@ -4,7 +4,7 @@
  *
  * These are system commands - commands required for Pokemon Showdown
  * to run. A lot of these are sent by the client.
- *
+ *TestingMemes
  * System commands should not be modified, added, or removed. If you'd
  * like to modify or add commands, add or edit files in chat-plugins/
  *
