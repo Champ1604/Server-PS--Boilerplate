@@ -3,6 +3,7 @@
 
 // Make sure our dependencies are available, and install them if they
 // aren't
+// test
 
 try {
 	require('sugar');
