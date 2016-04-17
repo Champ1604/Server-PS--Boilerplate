@@ -24,7 +24,11 @@ const MUTE_LENGTH = 7 * 60 * 1000;
 const HOURMUTE_LENGTH = 60 * 60 * 1000;
 
 exports.commands = {
-
+	dmgcalc: function(target, room, user) {
+		var calc = require("../extras/damagecalc.js")
+		if (!target) return this.parse("/help dmgcalc")
+		return this.sendReplyBox("<strong>Damage done by " + target.split(", ")[1] + " to " + target.split(", ")[2] + "</strong>: " + calc.getDamage(toId(target.split(", ")[0]), toId(target.split(", ")[1]), toId(target.split(", ")[2]), parseInt(toId(target.split(", ")[3])), parseInt(toId(target.split(", ")[4])), parseInt(toId(target.split(", ")[5])), toId(target.split(", ")[6]), toId(target.split(", ")[7]), JSON.parse(toId(target.split(", ")[8])), toId(target.split(", ")[9])))
+	},
 	version: function (target, room, user) {
 		if (!this.canBroadcast()) return;
 		this.sendReplyBox("Server version: <b>" + CommandParser.package.version + "</b>");
