@@ -15,7 +15,7 @@ $ node app.js
 - Champ1604 (Creating this git and many other things)
 - Tigerball890 (Doing other edits)
 - Ecuacion and his team (Making bot base)
-- [https://guangcongluo.com](Zarel) (Making the original server)
+- [Zarel](https://guangcongluo.com) (Making the original server)
 
 ## Special thanks
 
