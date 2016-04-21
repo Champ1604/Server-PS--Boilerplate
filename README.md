@@ -16,6 +16,7 @@ $ node app.js
 - Tigerball890 (Doing other edits)
 - Ecuacion and his team (Making bot base)
 - [Zarel](https://guangcongluo.com) (Making the original server)
+- [PokemonDB](http://pokemondb.net/pokedex) (Locations for !found command)
 
 ## Special thanks
 
