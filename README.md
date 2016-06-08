@@ -1,6 +1,6 @@
 # Duskflare Server
 
-This is a fork of PS-Boilerplate.
+This is a Clone of PS-Boilerplate.
 
 ## Quick Start
 
@@ -17,6 +17,7 @@ $ node app.js
 - Ecuacion and his team (Making bot base)
 - [Zarel](https://guangcongluo.com) (Making the original server)
 - [PokemonDB](http://pokemondb.net/pokedex) (Locations for !found command)
+- [Paul71](https://github.com/KewlStatics) (Help In Server Updates)
 
 ## Special thanks
 
